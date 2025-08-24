@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MC_movie" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor"> @color/primary</item>
+    </style>
+
+    <style name="Theme.MC_movie" parent="Base.Theme.MC_movie" />
+
+
+    <style name="Theme.MC_movie.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+
+    <style name="CircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item> <!-- 50% means circle -->
+    </style>
+
+</resources>

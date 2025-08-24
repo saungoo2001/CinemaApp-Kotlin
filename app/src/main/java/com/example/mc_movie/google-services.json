@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "441947411598",
+    "project_id": "mc-movie-d947c",
+    "storage_bucket": "mc-movie-d947c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441947411598:android:ddfd6f5f882162cb06e5df",
+        "android_client_info": {
+          "package_name": "com.example.mc_movie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2MFyn0IY9kiXXHMM1XtVhKHm_c-PG-zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

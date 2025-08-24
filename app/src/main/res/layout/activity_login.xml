@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rv_popular"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.login">
+
+    <ImageView
+        android:id="@+id/txtimage"
+        android:layout_width="97dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="75dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/movielogo" />
+
+    <EditText
+        android:id="@+id/tiMail"
+        android:layout_width="317dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/text_view_border"
+        android:ems="10"
+        android:hint="Enter your Email"
+        android:gravity="center"
+
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtimage" />
+
+    <EditText
+        android:id="@+id/tiPin"
+        android:layout_width="317dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+
+        android:ems="10"
+        android:background="@drawable/text_view_border"
+        android:hint="Enter your pin"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/tiMail"
+        app:layout_constraintStart_toStartOf="@+id/tiMail"
+        app:layout_constraintTop_toBottomOf="@+id/tiMail" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+
+        android:text="Login to your account"
+        app:layout_constraintEnd_toEndOf="@+id/tiPin"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tiPin"
+        app:layout_constraintTop_toBottomOf="@+id/tiName" />
+
+    <TextView
+        android:id="@+id/txtForgot"
+        android:layout_width="122dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Forgot Password"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintEnd_toEndOf="@+id/btnLogin"
+        app:layout_constraintStart_toStartOf="@+id/btnLogin"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="73dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="16dp"
+        android:text="OR"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/txtForgot"
+        app:layout_constraintStart_toStartOf="@+id/txtForgot"
+        app:layout_constraintTop_toBottomOf="@+id/txtForgot" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Create an account"
+        app:layout_constraintEnd_toEndOf="@+id/btnLogin"
+        app:layout_constraintStart_toStartOf="@+id/btnLogin"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Agree terms and rules for this application"
+        android:textColor="@android:color/holo_blue_light"
+        app:layout_constraintEnd_toEndOf="@+id/btnSignUp"
+        app:layout_constraintStart_toStartOf="@+id/btnSignUp"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignUp" />
+
+    <EditText
+        android:id="@+id/tiName"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="center"
+        android:background="@drawable/text_view_border"
+
+        android:hint="Enter your name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/tiPin"
+        app:layout_constraintStart_toStartOf="@+id/tiPin"
+        app:layout_constraintTop_toBottomOf="@+id/tiPin" />
+</androidx.constraintlayout.widget.ConstraintLayout>
